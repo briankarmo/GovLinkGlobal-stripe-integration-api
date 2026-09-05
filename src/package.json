@@ -1,0 +1,18 @@
+{
+  "name": "govlinkglobal-stripe-integration-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "stripe": "^12.0.0",
+    "dotenv": "^16.0.0",
+    "body-parser": "^1.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
